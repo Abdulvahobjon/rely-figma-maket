@@ -593,6 +593,7 @@
         <!-- retail end -->
 
 
+        <!-- contact start -->
         <section class="bg-product-grey-700 py-8 md:py-15 px-5">
             <div class="max-w-[1311px] mx-auto p-5 md:p-[60px] rounded-5 md:rounded-10 grid md:grid-cols-2 md:gap-11 gap-5"
                 style="background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
@@ -601,24 +602,28 @@
                     <h2 class="font-semibold text-2xl md:text-32 leading-8 md:leading-11 text-product-grey-600 mb-5">
                         Хотите бесплатную консультацию?
                         Оставляйте заявку</h2>
-                    <p class="font-normal text-base md:text-xl leading-5.5 md:leading-7 text-product-grey-600">Оставляйте
+                    <p class="font-normal text-base md:text-xl leading-5.5 md:leading-7 text-product-grey-600">
+                        Оставляйте
                         заявку и наши менеджеры свяжутся с Вами в ближайшее время </p>
                 </div>
                 <form class="grid gap-5">
                     <div class="grid gap-2">
-                        <label class="font-normal text-base leading-5.5 text-product-grey-600" for="name">Ваше имя</label>
+                        <label class="font-normal text-base leading-5.5 text-product-grey-600" for="name">Ваше
+                            имя</label>
                         <input required
                             class="py-2.5 px-5 rounded-5 font-normal text-base leading-5.5 text-[#2C2B35] placeholder:text-[#6F7973]"
                             id="name" name="name" type="text" placeholder="Сергей ">
                     </div>
                     <div class="grid gap-2">
-                        <label class="font-normal text-base leading-5.5 text-product-grey-600" for="tel">Ваш телефон</label>
+                        <label class="font-normal text-base leading-5.5 text-product-grey-600" for="tel">Ваш
+                            телефон</label>
                         <input required
                             class="py-2.5 px-5 rounded-5 font-normal text-base leading-5.5 text-[#2C2B35] placeholder:text-[#6F7973]"
                             id="tel" name="tel" type="tel" placeholder="Ваш телефон ">
                     </div>
                     <div class="grid gap-2">
-                        <label class="font-normal text-base leading-5.5 text-product-grey-600" for="eamil">Ваш e-mail</label>
+                        <label class="font-normal text-base leading-5.5 text-product-grey-600" for="eamil">Ваш
+                            e-mail</label>
                         <input required
                             class="py-2.5 px-5 rounded-5 font-normal text-base leading-5.5 text-[#2C2B35] placeholder:text-[#6F7973]"
                             id="email" name="email" type="email" placeholder="Ваш e-mail ">
@@ -637,6 +642,255 @@
                 </form>
             </div>
         </section>
+        <!-- contact end -->
+
+        <!-- FAQ start -->
+        <section class="py-8 md:py-16 bg-[#F7F8F8]">
+            <div class="max-w-[1351px] mx-auto px-5">
+                <h2 class="font-semibold text-xl md:text-32 leading-7 md:leading-11 text-[#3D4641] mb-8 md:mb-15">Ответы
+                    на вопросы</h2>
+                <ul class="grid gap-2.5 md:gap-5 mb-2.5 md:mb-5">
+                    <li class="py-3 md:py-5 px-5 md:px-10 rounded-5 md:rounded-10"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <div id="faqTop" class="flex items-center justify-between pb-0">
+                            <h3 class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-[#3D4641]">С чего
+                                начать работу с 1С-Товары?</h3>
+                            <button id="faqBtn" class="w-10 h-10 flex items-center justify-center rotate-180"><img
+                                    src="./img/faq/chevron-left.svg" alt="chevron-left"></button>
+                        </div>
+                        <div id="faqInfo" class="hidden">
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">Для этого
+                                подключите бесплатно новый тариф «1С-Ритейл Чекер». </p>
+                            <br>
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> Каждую
+                                неделю вам на почту будет приходить письмо с рекомендациями:</p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> какие
+                                    товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за пустых
+                                    полок;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары у вас в избытке, а какие следует отнести к неликвидам;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары стоит пересчитать, чтобы быть уверенным в правильности учета.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 md:py-5 px-5 md:px-10 rounded-5 md:rounded-10"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <div id="faqTop" class="flex items-center justify-between pb-0">
+                            <h3 class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-[#3D4641]">Как
+                                подключить 1С-Ритейл Чекер* и 1С-Товары?</h3>
+                            <button id="faqBtn" class="w-10 h-10 flex items-center justify-center rotate-180"><img
+                                    src="./img/faq/chevron-left.svg" alt="chevron-left"></button>
+                        </div>
+                        <div id="faqInfo" class="hidden">
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">Для этого
+                                подключите бесплатно новый тариф «1С-Ритейл Чекер». </p>
+                            <br>
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> Каждую
+                                неделю вам на почту будет приходить письмо с рекомендациями:</p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> какие
+                                    товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за пустых
+                                    полок;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары у вас в избытке, а какие следует отнести к неликвидам;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары стоит пересчитать, чтобы быть уверенным в правильности учета.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 md:py-5 px-5 md:px-10 rounded-5 md:rounded-10"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <div id="faqTop" class="flex items-center justify-between pb-0">
+                            <h3 class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-[#3D4641]">Средний
+                                чек, о чем нам может рассказать?</h3>
+                            <button id="faqBtn" class="w-10 h-10 flex items-center justify-center rotate-180"><img
+                                    src="./img/faq/chevron-left.svg" alt="chevron-left"></button>
+                        </div>
+                        <div id="faqInfo" class="hidden">
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">Для этого
+                                подключите бесплатно новый тариф «1С-Ритейл Чекер». </p>
+                            <br>
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> Каждую
+                                неделю вам на почту будет приходить письмо с рекомендациями:</p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> какие
+                                    товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за пустых
+                                    полок;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары у вас в избытке, а какие следует отнести к неликвидам;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары стоит пересчитать, чтобы быть уверенным в правильности учета.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 md:py-5 px-5 md:px-10 rounded-5 md:rounded-10"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <div id="faqTop" class="flex items-center justify-between pb-0">
+                            <h3 class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-[#3D4641]">Сценарии
+                                автозаказа сервиса 1С-Товары</h3>
+                            <button id="faqBtn" class="w-10 h-10 flex items-center justify-center rotate-180"><img
+                                    src="./img/faq/chevron-left.svg" alt="chevron-left"></button>
+                        </div>
+                        <div id="faqInfo" class="hidden">
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">Для этого
+                                подключите бесплатно новый тариф «1С-Ритейл Чекер». </p>
+                            <br>
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> Каждую
+                                неделю вам на почту будет приходить письмо с рекомендациями:</p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> какие
+                                    товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за пустых
+                                    полок;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары у вас в избытке, а какие следует отнести к неликвидам;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары стоит пересчитать, чтобы быть уверенным в правильности учета.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 md:py-5 px-5 md:px-10 rounded-5 md:rounded-10"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <div id="faqTop" class="flex items-center justify-between pb-0">
+                            <h3 class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-[#3D4641]">Как
+                                подключить 1С-Ритейл Чекер* и 1С-Товары?</h3>
+                            <button id="faqBtn" class="w-10 h-10 flex items-center justify-center rotate-180"><img
+                                    src="./img/faq/chevron-left.svg" alt="chevron-left"></button>
+                        </div>
+                        <div id="faqInfo" class="hidden">
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">Для этого
+                                подключите бесплатно новый тариф «1С-Ритейл Чекер». </p>
+                            <br>
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> Каждую
+                                неделю вам на почту будет приходить письмо с рекомендациями:</p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> какие
+                                    товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за пустых
+                                    полок;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары у вас в избытке, а какие следует отнести к неликвидам;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары стоит пересчитать, чтобы быть уверенным в правильности учета.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 md:py-5 px-5 md:px-10 rounded-5 md:rounded-10"
+                        style="box-shadow: 0px 4px 12px 0px #0000000D;">
+                        <div id="faqTop" class="flex items-center justify-between pb-0">
+                            <h3 class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-[#3D4641]">Методы и
+                                формулы расчета торговой наценки</h3>
+                            <button id="faqBtn" class="w-10 h-10 flex items-center justify-center rotate-180"><img
+                                    src="./img/faq/chevron-left.svg" alt="chevron-left"></button>
+                        </div>
+                        <div id="faqInfo" class="hidden">
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">Для этого
+                                подключите бесплатно новый тариф «1С-Ритейл Чекер». </p>
+                            <br>
+                            <p class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> Каждую
+                                неделю вам на почту будет приходить письмо с рекомендациями:</p>
+                            <ul class="list-disc pl-5">
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]"> какие
+                                    товары необходимо срочно купить, чтобы избежать упущенной прибыли из-за пустых
+                                    полок;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары у вас в избытке, а какие следует отнести к неликвидам;</li>
+                                <li class="font-normal text-xs md:text-sm leading-4 md:leading-5 text-[#6F7973]">какие
+                                    товары стоит пересчитать, чтобы быть уверенным в правильности учета.</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="flex items-center justify-between gap-2.5 flex-col md:flex-row rounded-5 md:rounded-10 py-5 px-5 lg:px-28"
+                    style="background: linear-gradient(178.11deg, #43A548 -147.02%, #52E259 286.68%); box-shadow: 0px 4px 12px 0px #0000000D;">
+                    <p class="font-semibold text-sm md:text-xl leading-5 md:leading-7 text-white">Переходи в раздел “Как
+                        это работает” , что бы получить больше полезной информации</p>
+                    <button
+                        class="bg-white w-full text-nowrap md:w-auto text-[#43A548] font-semibold text-base leading-5.5 rounded-10 py-3 px-8">Как
+                        это работает</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- FAQ end -->
+
+        <!-- Data section start -->
+        <section class="py-8 md:py-16 bg-[#F7F8F8] border">
+            <div class="max-w-[1407px] mx-auto px-12">
+                <div class="flex justify-between items-center border mb-8 md:mb-16">
+                    <h2 class="font-semibold text-xl md:text-32 leading-7 md:leading-11 text-[#3D4641]">
+                        База знаний </h2>
+                    <a href="#"
+                        class="bg-[#43A548] md:inline-block hidden text-nowrap md:w-auto text-white font-semibold text-base leading-5.5 rounded-10 py-3 px-8">Как
+                        Все статьи
+                    </a>
+                </div>
+                <div class="relative mb-8 md:mb-0">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bg-white rounded-5 overflow-hidden">
+                                    <img class="max-h-[140px] w-full object-cover" src="./img/data/1.jfif" alt="data img">
+                                    <div class="p-5 md:p-[30px] gap-2.5 md:h-[158px] flex flex-col">
+                                        <h3 class=""><a class="font-semibold text-base md:text-xl leading-5.5 md:leading-7 text-[#3D4641]"
+                                                href="#">Методы и формулы расчета торговой наценки</a></h3>
+                                        <a class="font-semibold text-xs md:text-base leading-4 md:leading-5.5 text-[#43A548] mt-auto ml-auto"
+                                            href="#">Читать статью</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bg-white rounded-5 overflow-hidden">
+                                    <img class="max-h-[140px] w-full object-cover" src="./img/data/3.jfif" alt="data img">
+                                    <div class="p-5 md:p-[30px] gap-2.5 md:h-[158px] flex flex-col">
+                                        <h3 class=""><a class="font-semibold text-base md:text-xl leading-5.5 md:leading-7 text-[#3D4641]"
+                                                href="#">Методы и формулы расчета торговой наценки</a></h3>
+                                        <a class="font-semibold text-xs md:text-base leading-4 md:leading-5.5 text-[#43A548] mt-auto ml-auto"
+                                            href="#">Читать статью</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bg-white rounded-5 overflow-hidden">
+                                    <img class="max-h-[140px] w-full object-cover" src="./img/data/2.jfif" alt="data img">
+                                    <div class="p-5 md:p-[30px] gap-2.5 md:h-[158px] flex flex-col">
+                                        <h3 class=""><a class="font-semibold text-base md:text-xl leading-5.5 md:leading-7 text-[#3D4641]"
+                                                href="#">Методы и формулы расчета торговой наценки</a></h3>
+                                        <a class="font-semibold text-xs md:text-base leading-4 md:leading-5.5 text-[#43A548] mt-auto ml-auto"
+                                            href="#">Читать статью</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bg-white rounded-5 overflow-hidden">
+                                    <img class="max-h-[140px] w-full object-cover" src="./img/data/1.jfif" alt="data img">
+                                    <div class="p-5 md:p-[30px] gap-2.5 md:h-[158px] flex flex-col">
+                                        <h3 class=""><a class="font-semibold text-base md:text-xl leading-5.5 md:leading-7 text-[#3D4641]"
+                                                href="#">Методы и формулы расчета торговой наценки</a></h3>
+                                        <a class="font-semibold text-xs md:text-base leading-4 md:leading-5.5 text-[#43A548] mt-auto ml-auto"
+                                            href="#">Читать статью</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute top-1/2 z-10 -left-12 -translate-y-1/2  populiar-swiper-button-next">
+                        <img src="./img/popular-product/left.svg" alt="swiper icon">
+                    </div>
+                    <div class="absolute top-1/2 z-10 -right-12 -translate-y-1/2 populiar-swiper-button-prev">
+                        <img src="./img/popular-product/right.svg" alt="swiper icon">
+                    </div>
+                </div>
+                <a href="#"
+                class="bg-[#43A548] text-center block md:hidden text-nowrap md:w-auto text-white font-semibold text-base leading-5.5 rounded-10 py-3 px-8">Как
+                Все статьи
+            </a>
+            </div>
+        </section>
+        <!-- Data section end -->
+
 
 
 

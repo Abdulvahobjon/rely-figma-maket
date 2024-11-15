@@ -16,3 +16,21 @@ var swiper = new Swiper(".mySwiper", {
         },
     }
 });
+
+
+
+let faqBtn  = document.querySelectorAll("#faqBtn")
+let faqInfo  = document.querySelectorAll("#faqInfo")
+let faqTop  = document.querySelectorAll("#faqTop")
+
+faqBtn.forEach(function(item ,index){
+    item.addEventListener('click' , function(){
+        faqInfo[index].classList.toggle("hidden")
+        faqTop[index].classList.toggle("pb-0")
+        faqTop[index].classList.toggle("pb-5")
+        item.classList.toggle("rotate-0")
+    })
+    
+})
+
+
