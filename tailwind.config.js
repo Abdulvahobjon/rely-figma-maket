@@ -25,11 +25,11 @@ module.exports = {
       colors:{
         product:{
           "green-400":"#43A548",
-          "grey-300":"#838684",
           "grey-400":"#6F7973",
           "grey-500":"#3D4641",
           "grey-600":"#F7F8F8",
-          "black-400":"#2C2B35"
+          "grey-700":"#919999",
+          "black-400":"#2C2B35",
         }
       },
       borderColor:{

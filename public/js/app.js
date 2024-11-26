@@ -51,3 +51,4 @@ faqBtn.forEach(function(item ,index){
 })
 
 
+// AOS.init();
