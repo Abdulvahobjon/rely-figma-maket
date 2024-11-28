@@ -6,3 +6,13 @@
 body{
     background-color: #F7F8F8;
 }
+.title-404{
+        font-size: 72px;
+        background: -webkit-linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.product-heading{
+    background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);
+}
