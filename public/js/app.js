@@ -17,6 +17,26 @@ var swiper = new Swiper(".mySwiper", {
     }
 });
 
+
+var swiper = new Swiper(".mySwiperProduct", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: ".populiar-swiper-button-next",
+        prevEl: ".populiar-swiper-button-prev",
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+    }
+});
+
 var swiper = new Swiper(".mySwiperBrend", {
     slidesPerView: 3,
     spaceBetween: 20,
@@ -51,4 +71,4 @@ faqBtn.forEach(function(item ,index){
 })
 
 
-// AOS.init();
+// AOS.init(); 

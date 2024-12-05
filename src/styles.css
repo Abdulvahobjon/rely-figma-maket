@@ -16,3 +16,10 @@ body{
 .product-heading{
     background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);
 }
+
+.swiper-slideProduct {
+    display: flex; /* Kontentni markazlashtirish uchun */
+    flex-direction: column; /* Ichidagi elementlar ustma-ust joylashadi */
+    justify-content: space-between; /* Kontentni bo'shliqqa moslashtirish uchun */
+  }
+  
